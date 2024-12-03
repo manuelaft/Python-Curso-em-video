@@ -1,10 +1,14 @@
+#ex018
+
+'''Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.'''
+
 import math
 numero=float(input('Digite um ângulo: '))
 r=math.radians(numero)
 print(f'O seno do ângulo {numero} é {math.sin(r):.2f}\nO cosseno é {math.cos(r):.2f}')
 print(f'E a tangente é {math.tan(r):.2f}')
 
-#Simplificando o máximo que eu consigo o código
+#Simplificando o máximo que eu consegui:
 
 from math import sin, cos, tan, radians
 num=float(input('Escreva um valor: '))

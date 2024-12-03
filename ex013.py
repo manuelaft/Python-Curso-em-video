@@ -1,3 +1,7 @@
+#ex013
+
+'''Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.'''
+
 s=float(input('Digite o seu atual salário: '))
 v=int(input('Qual a porcentagem do seu aumento salarial? '))
 a=s*v/100
@@ -15,9 +19,3 @@ p=parcelado+v
 print('Pagando à prazo, temos uma taxa adicional de 5%. Ficando {}'.format(p))
 div=p/2
 print('Com parcelas de até 2x sem juros!\n2x de {}'.format(div))
-
-# ex014
-
-c=float(input('Me informe a temperatura em Celsius: '))
-f=(c*1.8)+32
-print('A temperatura de {}C corresponde à {} Farenheit'.format(c,f))

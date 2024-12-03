@@ -1,3 +1,10 @@
+#ex022
+
+'''Crie um programa que leia o nome completo de uma pessoa e mostre: 
+> O nome com todas as letras maiúsculas e minúsculas.
+> Quantas letras ao todo (sem considerar espaços).
+> Quantas letras tem o primeiro nome.'''
+
 nome=(input('Digite o seu nome completo: '))
 print(f'Maiúsculo: {nome.upper()}')
 print(f'Minúsculo: {nome.lower()}')
@@ -11,7 +18,7 @@ print('O seu primeiro nome é {} e tem {} letras'.format(split[0], len(split[0])
 print(f'Seu nome possui {len(nome.replace(' ',''))} letras')
 print('O seu primeiro nome tem {} letras'.format(len(nome.split()[0])))
 
-# versão Guanabara (usando o truque de menos, você pede a lenght da str, mas subtrai todas os ' ' com o count, que conta todos eles por você)
+# ver Guanabara (você pede a lenght da str, mas subtrai todas os ' ' com o count)
 
 nome=str(input('Digite o seu nome completo: '))
 print('Seu nome maiuscúlo é {}'.format(nome.upper()))
