@@ -1,3 +1,7 @@
+# ex037
+
+'''Escreva um programa em Python que leia um número inteiro qualquer e peça para o usuário escolher qual será a base de conversão: 1 para binário, 2 para octal e 3 para hexadecimal.'''
+
 num=int(input('Digite um número inteiro: '))
 print('Escolha uma das bases para conversão:\n[ 1 ] converter para BINÁRIO\n[ 2 ] converter para OCTAL\n[ 3 ] converter para HEXADECIMAL')
 op=int(input('Sua opção: '))
@@ -25,8 +29,3 @@ elif op == 3:
 else:
     print('Desculpe, opção inválida. Tente novamente')
 
-""" Lembrando que os fatiamentos de string funcionam da seguinte forma: 
-Como você não quer que apareça os caracteres 0 e 1, você coloca o 2. Ou seja, vai aparecer a partir do terceiro caractere. 
-O " : " é para colocar depois até que caractere você quer que apareça. Exemplo: [2:5] do caractere 3 até o sexto
-Mas como nesse exércicio não sabemos a dimensão do número, o espaço vazio após o : vai mostrar até o final da string, não importa o tamanho
-Fatiamento é sempre dentro de chaves! """

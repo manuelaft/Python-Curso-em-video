@@ -1,3 +1,11 @@
+# ex044
+
+'''Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:
+à vista dinheiro/cheque: 10% de desconto
+à vista no cartão: 5% de desconto
+em até 2x no cartão: preço formal
+3x ou mais no cartão: 20% de juros'''
+
 print('='*10,'\033[32m LOJINHA ARTESANAL \033[m','='*10)
 price=float(input('Preço das compras: R$'))
 print('''FORMAS DE PAGAMENTO
@@ -19,6 +27,5 @@ elif op==4:
 else:
     print('\033[31mOpção inválida de pagamento. TENTE NOVAMENTE \033[m')
 
-# Observação ! Existe outras formas de resolver o mesmo exercício. Na ver do Guanabara, ele criou uma variável dentro de cada elif
-# invés de colocar tudo no format e economizar nas variáveis. Exemplo: desconto = price*10/100 - price
+# Observação: Tem como fazer criando uma variável dentro de cada elif
 

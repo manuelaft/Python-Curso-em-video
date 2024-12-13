@@ -12,5 +12,4 @@ else:
     print('Os segmentos acima NÃO PODEM FORMAR um triângulo!')
 
 
-# Para melhorar e aperfeiçoar o exercício, no mundo 2 (aula 12) vamos dizer que tipo de triângulo é 
-# (escaleno, isosceles, equilatero, retângulo)
+# No mundo 2 (aula 12) vamos dizer que tipo de triângulo é (escaleno, isosceles, equilatero, retângulo)

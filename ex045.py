@@ -1,4 +1,8 @@
-# ver corrigida e simplificada do Guanabara
+# ex045
+
+'''Crie um programa que faça o computador jogar Jokenpô com você.'''
+
+# ver do Guanabara
 from random import randint
 from time import sleep as s
 from colorama import Fore,init
@@ -49,23 +53,5 @@ if pc==2:
         print(Fore.RED +'JOGADOR PERDEU')
         if op==0:
             print(Fore.GREEN +'JOGADOR GANHOU')
-
-# DICA PARA CONDIÇÕES ANINHADAS
-
-''' Antes de partir direto para o problema, tente estruturar seu pensamento. Nesse exercicio, por exemplo, ficou mais
-fácil depois de ter definido que a resposta do computador era o principal e definindo as três primeiras respostas possíveis do pc, 
-ai sim viriam as outras condições dentro de cada if, como se fosse um esqueleto. Exemplo:
-
-PRIMEIRO PASSO - 
-if pc==0:
-
-elif pc==1:
-
-elif pc==2:
-
-SEGUNDO PASSO - 
-
-Aninhar o restante das condições dentro delas (3 possibilidades para cada resposta do pc), dessa forma ficou mais fácil'''
-
 
 # você pode alinhar vários if dentro de um if, e vários if dentro de um elif (condições aninhadas)'''
