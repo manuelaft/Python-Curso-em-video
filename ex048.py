@@ -1,4 +1,8 @@
-soma=0 # Isso se chama acumuladores, os quais vão ser melhor explicados na aula 14
+# ex048
+
+'''Faça um programa que calcule a soma entre todos os números que são múltiplos de três e que se encontram no intervalo de 1 até 500.'''
+
+soma=0 # acumuladores (aula 14)
 quantidade=0
 for num in range (0,500+1,3):
     if num %2!=0: # ou seja, se ele for ímpar
@@ -10,11 +14,3 @@ for num in range (0,500+1,3):
     
 print('Existem {} números múltiplos de 3, que estão entre 1 e 500.'.format(quantidade-1)) # menos 1 por causa do zero
 print('A soma de todos os números múltiplos de 3, que estão entre 1 e 500, é igual a {}'.format(soma))
-
-# ex049
-
-num=int(input('Digite um número para saber sua tabuada: '))
-print('=='*10)
-for c in range(0,11):
-    print(f'{num} x {c} = {num*c}')
-print('=='*10)
