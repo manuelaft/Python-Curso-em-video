@@ -1,3 +1,7 @@
+# ex052
+
+'''Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.'''
+
 from colorama import Fore,init
 init()
 lista=0
