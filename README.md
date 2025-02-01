@@ -1,2 +1,5 @@
-# Python-Curso-em-video
- Todos os exercícios feitos por mim do curso da linguagem de programaçãoPython da plataforma de estudos Curso em Vídeo, ministrada pelo professor Gustavo Guanabara. Duração de 120 horas, dividido em 3 modulos 
+# PYTHON CURSO EM VÍDEO
+
+* A minha resolução de todos os exercícios do curso de Python para inciantes.
+
+O curso consta com uma carga horário de 120 horas de duração, dividivo em 3 módulos. Aulas ministradas pelo professor Gustavo Guanabara.
