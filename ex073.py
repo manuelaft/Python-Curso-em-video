@@ -15,7 +15,7 @@ times=('Botafogo','Palmeiras','Flamengo','Fortaleza','Internacional','São Paulo
 'EC Vitória','Atlético-MG','Fluminense','Grêmio','Juventude','Bragantino','Athletico-PR','Criciúma','Atlético-GO','Cuiabá')
 print('=-'*90)
 print('LISTA DE TIMES DO BRASILEIRÃO:\n',end='')
-for contador in range(0,20):
+for contador in range(0,20): # for t in times também daria certo
        print(f'{times[contador]}')
 print('=-'*90)
 print(f'Os 5 primeiros colocados são: {times[0]}, {times[1]}, {times[2]}, {times[3]} e {times[4]}')
