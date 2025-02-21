@@ -35,11 +35,4 @@ else:
     
     if lista[c]<menor:
         
-        menor=lista[c]
-
-
-
-
-
-
-'''
+        menor=lista[c]'''
